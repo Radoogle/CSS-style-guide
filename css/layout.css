@@ -22,26 +22,32 @@
   place-self: center strech;
 }
 
+
 .main-nav {
   grid-area: nav;
 }
+
 
 .content {
   grid-area: content;
 } 
 
+
 .side {
   grid-area: sidebar;
 }
+
 
 .ad {
   grid-area: ad;
 }
 
+
 .main-footer {
   grid-area:  footer;
   place-self: center strech;
 }
+
 
 .page {
   display: grid;
@@ -73,6 +79,7 @@
   }
 }
 
+
 @media (min-width: 700px) {
   .page {
     grid-template-columns: 1fr 4fr 1fr;
@@ -96,11 +103,13 @@
   gap: .7em;
 }
 
+
 @media (min-width: 500px) {
   .page {
     gap: 1.2em;
   }
 }
+
 
 @media (min-width: 700px) {
   .page {

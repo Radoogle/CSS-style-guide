@@ -53,6 +53,7 @@
     cursor:           pointer;
   }
 
+
 @media (min-width: 700px) {
   .main-nav {
     justify-content: center;
